@@ -18,18 +18,18 @@ const Nav = () => (
         </ActiveLink>
       </li>
       <li>
+        <ActiveLink activeClassName='active' href='/events'>
+          <a className='nav-link'>Events</a>
+        </ActiveLink>
+      </li>
+      <li>
         <ActiveLink activeClassName='active' href='/about'>
           <a className='nav-link'>About</a>
         </ActiveLink>
       </li>
       <li>
-        <ActiveLink activeClassName='active' href='/blog'>
-          <a className='nav-link'>Blog</a>
-        </ActiveLink>
-      </li>
-      <li>
-        <ActiveLink activeClassName='active' href='/[slug]' as='/dynamic-route'>
-          <a className='nav-link'>Dynamic Route</a>
+        <ActiveLink activeClassName='active' href='/contact'>
+          <a className='nav-link'>Contact</a>
         </ActiveLink>
       </li>
     </ul>
